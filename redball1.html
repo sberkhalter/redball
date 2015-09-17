@@ -18,6 +18,162 @@
             function movebottom(){
                 redball.top=redball.top+10;
             }
+            function movebottomleft(){
+                //move down to the left//
+                movebottom();
+                moveleft();
+            }
+             function movetopleft(){
+                //move up and to the left//
+                movetop();
+                moveleft();
+            }
+            function movetriangle(){
+                //make a triangle//
+                movebottomright();
+                movebottomright();
+                movebottomright();
+                movebottomright();
+                movebottomright();
+                movebottomright();
+                moveleft();
+                moveleft();
+                moveleft();
+                moveleft();
+                moveleft();
+                moveleft();
+                moveleft();
+                moveleft();
+                moveleft();
+                moveleft();
+                moveleft();
+                moveleft();
+                moveupright();
+                moveupright();
+                moveupright();
+                moveupright();
+                moveupright();
+                moveupright();
+                
+            }
+            //move down right//
+            function movebottomright(){
+                movebottom();
+                moveright();
+            }
+            //move up and to the right//
+            function moveupright(){
+                movetop();
+                moveright();
+                
+            }
+            function movesquare(){
+                //move to the right//
+                moveright();
+                 moveright();
+                  moveright();
+                   moveright();
+                    moveright();
+                     moveright();
+                     //move downward//
+                     movebottom();
+                      movebottom();
+                       movebottom();
+                        movebottom();
+                         movebottom();
+                          movebottom();
+                          //move to the left//
+                          moveleft();
+                           moveleft();
+                            moveleft();
+                             moveleft();
+                              moveleft();
+                               moveleft();
+                               //move it on up//
+                               movetop();
+                               movetop();
+                               movetop();
+                               movetop();
+                               movetop();
+                               movetop();
+                               
+                
+            }
+            function moveoctagon(){
+                //move in an octagon//
+                moveright();
+                moveright();
+                moveright();
+                moveright();
+                moveright();
+                moveright();
+                moveright();
+                moveright();
+                moveright();
+                moveright();
+                moveright();
+                moveright();
+                movebottomright();
+                movebottomright();
+                movebottomright();
+                movebottomright();
+                movebottomright();
+                movebottomright();
+                movebottom();
+                movebottom();
+                movebottom();
+                movebottom();
+                movebottom();
+                movebottom();
+                movebottom();
+                movebottom();
+                movebottom();
+                movebottom();
+                movebottom();
+                movebottom();
+                movebottomleft();
+                movebottomleft();
+                movebottomleft();
+                movebottomleft();
+                movebottomleft();
+                movebottomleft();
+                moveleft();
+                moveleft();
+                moveleft();
+                moveleft();
+                moveleft();
+                moveleft();
+                moveleft();
+                moveleft();
+                moveleft();
+                moveleft();
+                moveleft();
+                moveleft();
+                movetopleft();
+                movetopleft();
+                movetopleft();
+                movetopleft();
+                movetopleft();
+                movetopleft();
+                movetop();
+                movetop();
+                movetop();
+                movetop();
+                movetop();
+                movetop();
+                movetop();
+                movetop();
+                movetop();
+                movetop();
+                movetop();
+                movetop();
+                moveupright();
+                moveupright();
+                moveupright();
+                moveupright();
+                moveupright();
+                moveupright();
+            }
             
             
             </script>
@@ -29,5 +185,13 @@
          <button onclick="moveleft()">move left</button>
          <button onclick="movetop()">move up</button>
          <button onclick="movebottom()">move down</button>
+         <button onclick="movesquare()">move in a square</button>
+         <button onclick="movebottomright()">down right</button>
+         <button onclick="movetriangle()">move in a triangle</button>
+         <button onclick="moveupright()">up right</button>
+         <button onclick="movebottomleft()">down left</button>
+          <button onclick="movetopleft()">up left</button>
+           <button onclick="moveoctagon()">move in an octagon</button>
+         
     </body>
 </html>
