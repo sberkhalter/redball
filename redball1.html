@@ -7,16 +7,36 @@
                 alert('Hi There');
             }
             function moveright(){
+                if(redball.left==450){
+                    alert("right wall hit");
+                     }
+                     else{
                 redball.left=redball.left+10;
             }
+            }
             function moveleft(){
+                if (redball.left == -10){
+                alert("left wall hit");
+            }
+            else {
                 redball.left=redball.left-10;
             }
+            }
             function movetop(){
+                if(redball.top==-10){
+                    alert("top wall hit");
+                }
+                else {
                 redball.top=redball.top-10;
+                }
             }
             function movebottom(){
+                if(redball.top==430){
+                    alert("Bottom wall hit");
+                }
+                else{
                 redball.top=redball.top+10;
+                }
             }
             function movebottomleft(){
                 //move down to the left//
